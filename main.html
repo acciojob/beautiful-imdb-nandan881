@@ -1,16 +1,50 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Movie Detail Page</title>
+    <style>
+        /* Styling for the movie poster */
+        .moviePic {
+            height: 400px;
+            width: 300px;
+            opacity: 0.9;
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        /* Styling for the movie description */
+        .movieDetail {
+            position: relative;
+            top: 20px;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.5;
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Additional styles for body */
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>Movie Detail Page</h1>
 
+    <!-- Movie poster -->
+    <img src="https://via.placeholder.com/300x400" alt="Movie Poster" class="moviePic">
+
+    <!-- Movie description -->
+    <p class="movieDetail">This is an exciting movie that captures the essence of adventure and drama. With stunning visuals, compelling storytelling, and unforgettable characters, it is a must-watch for all movie enthusiasts. Don’t miss the chance to immerse yourself in this cinematic masterpiece!</p>
 </body>
-
 </html>
